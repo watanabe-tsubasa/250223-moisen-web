@@ -58,7 +58,7 @@ export default function ZoomMeetingPage() {
         <p>エラー: {data.error}</p>
       ) : (
         <>
-          <Button onClick={() => window.open(data.startUrl, "_blank", "noopener,noreferrer")}>
+          <Button onClick={() => window.open(data.startUrl, "_blank", "noopener,noreferrer")} className="m-4">
             Zoom を開く
           </Button>
           {/* <p>
@@ -68,7 +68,9 @@ export default function ZoomMeetingPage() {
           </p> */}
         </>
       )}
-      <Button variant="secondary" onClick={() => navigate("/dashboard/main")}>閉じる</Button>
+      <Button variant="secondary" onClick={() => navigate("/dashboard/main")} className="m-4">
+        閉じる
+      </Button>
     </div>
   );
 }

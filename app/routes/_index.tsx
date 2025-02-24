@@ -11,7 +11,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="flex h-screen items-center justify-center">
+    <div className="flex h-screen-header items-center justify-center">
       <div className="flex flex-col items-center gap-16">
         <header className="flex flex-col items-center gap-9">
           <h1 className="leading text-2xl font-bold text-gray-800 dark:text-gray-100">
@@ -19,7 +19,7 @@ export default function Index() {
           </h1>
           <div className="h-[144px] w-[434px]">
             <img
-              src="/logo-light.png"
+              src="/title-okusuri.png"
               alt="Remix"
               className="block w-full dark:hidden"
             />
@@ -30,8 +30,8 @@ export default function Index() {
             />
           </div>
         </header>
-        <Link to="./main">
-          <Button>ボタン</Button>
+        <Link to="./login">
+          <Button variant="secondary">ログインして始める</Button>
         </Link>
       </div>
     </div>

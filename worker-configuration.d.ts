@@ -4,4 +4,6 @@ interface Env {
   ZOOM_CLIENT_ID: string;
   ZOOM_CLIENT_SECRET: string;
   ZOOM_ACCOUNT_ID: string;
+  LINE_ACCESS_TOKEN: string;
+  DB: D1Database;
 }

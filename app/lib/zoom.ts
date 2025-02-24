@@ -1,5 +1,6 @@
 import { ZoomAccessTokenResponse, ZoomMeetingResponse } from "./types";
 
+
 const ZOOM_AUTH_URL = "https://zoom.us/oauth/token";
 const ZOOM_MEETING_URL = "https://api.zoom.us/v2/users/me/meetings";
 
